@@ -1,0 +1,27 @@
+body {
+    background-color: darkslategrey;
+
+    
+}
+.modal-content {
+    background-color: #EAFAF1;
+}
+#modalValidation {
+    z-index: 2000;
+}
+.parent {
+    width: 100px; /* I took the width from your post and placed it in css */
+    height: 100px;
+ }
+ 
+ /* This will style any <img> element in .parent div */
+ .parent img {
+    height: 100%;
+    width: 100%;
+ }
+ @media only screen and (max-width: 600px) {
+    .table {
+       width: 550px;
+       overflow-x: auto;
+    }
+    }
